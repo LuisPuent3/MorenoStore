@@ -1,0 +1,154 @@
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.exe
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.deps.json
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.runtimeconfig.json
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.dll
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.pdb
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.csproj.AssemblyReference.cache
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE_MarkupCompile.cache
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE_MarkupCompile.lref
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.g.resources
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.AssemblyInfoInputs.cache
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.AssemblyInfo.cs
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.csproj.CoreCompileInputs.cache
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.dll
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\refint\CRUD STORE.dll
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.pdb
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.genruntimeconfig.cache
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\ref\CRUD STORE.dll
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\Vistas\Usuarios.g.cs
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\Vistas\Usuarios.baml
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\Vistas\CRUDUsuarios.g.cs
+C:\Users\AngelPuente\source\repos\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\Vistas\CRUDUsuarios.baml
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.csproj.AssemblyReference.cache
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\Vistas\CRUDUsuarios.g.cs
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\Vistas\Usuarios.g.cs
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE_MarkupCompile.cache
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE_MarkupCompile.lref
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.exe
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.dll.config
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.deps.json
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.runtimeconfig.json
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.pdb
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\Vistas\CRUDUsuarios.baml
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\Vistas\Usuarios.baml
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.g.resources
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.AssemblyInfoInputs.cache
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.AssemblyInfo.cs
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.csproj.CoreCompileInputs.cache
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.csproj.CopyComplete
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\refint\CRUD STORE.dll
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.pdb
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.genruntimeconfig.cache
+C:\Users\AngelPuente\Source\Repos\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\ref\CRUD STORE.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.exe
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.dll.config
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.deps.json
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.runtimeconfig.json
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.pdb
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.csproj.AssemblyReference.cache
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\Vistas\CRUDUsuarios.g.cs
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\Vistas\Usuarios.g.cs
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE_MarkupCompile.cache
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE_MarkupCompile.lref
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\Vistas\CRUDUsuarios.baml
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\Vistas\Usuarios.baml
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.g.resources
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.AssemblyInfoInputs.cache
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.AssemblyInfo.cs
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.csproj.CoreCompileInputs.cache
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.csproj.CopyComplete
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\refint\CRUD STORE.dll
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.pdb
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.genruntimeconfig.cache
+C:\Users\luiso\OneDrive\Escritorio\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\ref\CRUD STORE.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.exe
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.dll.config
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.deps.json
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.runtimeconfig.json
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.pdb
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.csproj.AssemblyReference.cache
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\Vistas\CRUDUsuarios.g.cs
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\Vistas\Usuarios.g.cs
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE_MarkupCompile.cache
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE_MarkupCompile.lref
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\Vistas\CRUDUsuarios.baml
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\Vistas\Usuarios.baml
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.g.resources
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.AssemblyInfoInputs.cache
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.AssemblyInfo.cs
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.csproj.CoreCompileInputs.cache
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.csproj.CopyComplete
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\refint\CRUD STORE.dll
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.pdb
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.genruntimeconfig.cache
+C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\ref\CRUD STORE.dll

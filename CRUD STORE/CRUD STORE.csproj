@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>CRUD_STORE</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="items\img\close.png" />
+    <None Remove="items\img\home.png" />
+    <None Remove="items\img\info.png" />
+    <None Remove="items\img\menu.png" />
+    <None Remove="items\img\minimizar.png" />
+    <None Remove="items\img\productos.png" />
+    <None Remove="items\img\setting.png" />
+    <None Remove="items\img\usuarios.png" />
+    <None Remove="items\img\ventas.png" />
+    <None Remove="items\userImage.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.33" />
+    <PackageReference Include="MySqlConnector" Version="2.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="items\img\productos.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="items\img\usuarios.png" />
+    <Resource Include="items\img\ventas.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="items\img\home.png" />
+    <Resource Include="items\img\menu.png" />
+    <Resource Include="items\img\minimizar.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="items\img\close.png" />
+    <Resource Include="items\img\info.png" />
+    <Resource Include="items\img\setting.png" />
+    <Resource Include="items\userImage.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
