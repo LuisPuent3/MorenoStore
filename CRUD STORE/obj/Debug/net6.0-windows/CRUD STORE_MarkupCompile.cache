@@ -4,24 +4,16 @@
 winexe
 C#
 .cs
-<<<<<<< Updated upstream:CRUD STORE/obj/Debug/net6.0-windows/CRUD STORE_MarkupCompile.cache
-C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\
-=======
-C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\Base-de-datos-tienda\CRUD STORE\CRUD STORE\obj\Debug\net6.0-windows\
->>>>>>> Stashed changes:Base-de-datos-tienda/CRUD STORE/CRUD STORE/obj/Debug/net6.0-windows/CRUD STORE_MarkupCompile.cache
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\
 CRUD_STORE
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-<<<<<<< Updated upstream:CRUD STORE/obj/Debug/net6.0-windows/CRUD STORE_MarkupCompile.cache
-C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\App.xaml
-=======
-C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\Base-de-datos-tienda\CRUD STORE\CRUD STORE\App.xaml
->>>>>>> Stashed changes:Base-de-datos-tienda/CRUD STORE/CRUD STORE/obj/Debug/net6.0-windows/CRUD STORE_MarkupCompile.cache
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\App.xaml
 31240793941
 
 6-990190472
-202948773189
+204377164602
 MainWindow.xaml;Vistas\CRUDUsuarios.xaml;Vistas\Usuarios.xaml;
 
 False

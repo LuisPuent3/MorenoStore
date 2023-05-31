@@ -6,6 +6,9 @@
       xmlns:local="clr-namespace:CRUD_STORE.Vistas"
       mc:Ignorable="d" 
       d:DesignHeight="565" d:DesignWidth="925"
+      FontSize="19"
+      Background="Transparent"
+      
       Title="CRUDUsuarios">
     <!--#region BTNSTYLE-->
     <Page.Resources>
@@ -64,20 +67,66 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <SolidColorBrush x:Key="TextBox.Static.Border" Color="#FFABAdB3"/>
+        <SolidColorBrush x:Key="TextBox.MouseOver.Border" Color="#FF7EB4EA"/>
+        <SolidColorBrush x:Key="TextBox.Focus.Border" Color="#FF569DE5"/>
+        <!--#endregion-->
+        <!--#region TBSTYLE -->
+        <Style x:Key="TextBoxStyle" TargetType="{x:Type TextBox}">
+            <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource TextBox.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="KeyboardNavigation.TabNavigation" Value="None"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+            <Setter Property="AllowDrop" Value="true"/>
+            <Setter Property="ScrollViewer.PanningMode" Value="VerticalFirst"/>
+            <Setter Property="Stylus.IsFlicksEnabled" Value="False"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBox}">
+                        <Border CornerRadius="7" x:Name="border" Background="White" BorderBrush="Purple" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="True">
+                            <ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Opacity" TargetName="border" Value="0.56"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource TextBox.MouseOver.Border}"/>
+                            </Trigger>
+                            <Trigger Property="IsKeyboardFocused" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource TextBox.Focus.Border}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsInactiveSelectionHighlightEnabled" Value="true"/>
+                        <Condition Property="IsSelectionActive" Value="false"/>
+                    </MultiTrigger.Conditions>
+                    <Setter Property="SelectionBrush" Value="{DynamicResource {x:Static SystemColors.InactiveSelectionHighlightBrushKey}}"/>
+                </MultiTrigger>
+            </Style.Triggers>
+        </Style>
     </Page.Resources>
     <!--#endregion-->
 
-    <Border Background="#E0D4ED"
+    <Border Background="Transparent"
             CornerRadius="10">
         <Grid>
             <!--#region Columns and Rows-->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="20"/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
                 <ColumnDefinition Width="20"/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="20"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
@@ -100,6 +149,9 @@
                 <RowDefinition Height="30"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
                 <RowDefinition Height="20"/>
             </Grid.RowDefinitions>
             <!--#endregion-->
@@ -122,9 +174,45 @@
                     Cursor="Hand"
                     Width="100"
                     Background="Purple"
-                    Foreground="White" Click="Regresar"/>
+                    Foreground="White" Click="Regresar"
+                    />
             <!--#endregion-->
-            
+            <!--#region CREAR-->
+            <Button x:Name="btnCrear"
+                    Content="Crear"
+                    Grid.Column="5"
+                    Grid.Row="20"
+                    Width="100"
+                    Background="Purple"
+                    Style="{DynamicResource btnRegresarStyle}"
+                    Visibility="Hidden"
+                    Click="Crear"
+                    Cursor="Hand"/>
+            <!--#endregion-->
+            <!--#region ELIMINAR-->
+            <Button x:Name="btnEliminar"
+                    Content="Eliminar"
+                    Grid.Row="20"
+                    Grid.Column="5"
+                    Width="100"
+                    Background="Purple"
+                    Style="{DynamicResource btnRegresarStyle}"
+                    Visibility="Hidden"
+                    Click="Eliminar"
+                    Cursor="Hand"/>
+            <!--#endregion-->
+            <!--#region ACTUALIZAR-->
+            <Button x:Name="btnActualizar"
+                    Content="Actualizar"
+                    Grid.Column="5"
+                    Grid.Row="20"
+                    Width="100"
+                    Background="Purple"
+                    Style="{DynamicResource btnRegresarStyle}"
+                    Visibility="Hidden"
+                    Click="Actualizar"
+                    Cursor="Hand"/>
+            <!--#endregion-->
             <!--#endregion-->
             <!--#region CONTENIDO-->
             <TextBlock Grid.Row="4"
@@ -133,79 +221,102 @@
                        HorizontalAlignment="Left"
                        VerticalAlignment="Center"
                        />
-            <TextBox Grid.Row="4"
-                     Grid.Column="2"
+            <TextBox Style="{DynamicResource TextBoxStyle}" Grid.Row="4"
+                     HorizontalContentAlignment="Center" Grid.Column="2"
                      x:Name="tbNombres"/>
             <TextBlock Grid.Row="6" 
                        Grid.Column="1"
                        Text="ApellidoP" 
                        HorizontalAlignment="Left"
                        VerticalAlignment="Center"/>
-            <TextBox Grid.Row="6"
-                     Grid.Column="2"
+            <TextBox Style="{DynamicResource TextBoxStyle}" Grid.Row="6"
+                     HorizontalContentAlignment="Center" Grid.Column="2"
                      x:Name="tbApellidoP"/>
             <TextBlock Grid.Row="8" 
                        Grid.Column="1"
                        Text="ApellidoM" 
                        HorizontalAlignment="Left"
                        VerticalAlignment="Center"/>
-            <TextBox Grid.Row="8"
-                     Grid.Column="2"
+            <TextBox Style="{DynamicResource TextBoxStyle}" Grid.Row="8"
+                     HorizontalContentAlignment="Center" Grid.Column="2"
                      x:Name="tbApellidoM"/>
             <TextBlock Grid.Row="10" 
                        Grid.Column="1"
                        Text="DNI" 
                        HorizontalAlignment="Left"
                        VerticalAlignment="Center"/>
-            <TextBox Grid.Row="10"
-                     Grid.Column="2"
+            <TextBox Style="{DynamicResource TextBoxStyle}" Grid.Row="10"
+                     HorizontalContentAlignment="Center" Grid.Column="2"
                      x:Name="tbDNI"/>
             <TextBlock Grid.Row="12" 
                        Grid.Column="1"
                        Text="Email" 
                        HorizontalAlignment="Left"
                        VerticalAlignment="Center"/>
-            <TextBox Grid.Row="12"
-                     Grid.Column="2"
+            <TextBox Style="{DynamicResource TextBoxStyle}" Grid.Row="12"
+                     HorizontalContentAlignment="Center" Grid.Column="2"
                      x:Name="tbEmail"/>
             <TextBlock Grid.Row="14" 
                        Grid.Column="1"
                        Text="Telefono" 
                        HorizontalAlignment="Left"
                        VerticalAlignment="Center"/>
-            <TextBox Grid.Row="14"
-                     Grid.Column="2"
+            <TextBox Style="{DynamicResource TextBoxStyle}" Grid.Row="14"
+                     HorizontalContentAlignment="Center" Grid.Column="2"
                      x:Name="tbTelefono"/>
-            <TextBlock Grid.Row="16" 
+            <!--<TextBlock Grid.Row="16" 
                        Grid.Column="1"
                        Text="Fecha Nacimiento" 
                        HorizontalAlignment="Left"
                        VerticalAlignment="Center"/>
             <TextBox Grid.Row="16"
                      Grid.Column="2"
-                     x:Name="tbFecha"/>
-            <TextBlock Grid.Row="18" 
+                     x:Name="tbFecha"/>-->
+            <TextBlock Grid.Row="16" 
                        Grid.Column="1"
                        Text="Privilegio" 
                        HorizontalAlignment="Left"
                        VerticalAlignment="Center"/>
-            <ComboBox Grid.Row="18"
+            <ComboBox Grid.Row="16"
+                      HorizontalContentAlignment="Center"
                      Grid.Column="2"
-                      x:Name="cbPrivilegio"/>
+                      x:Name="cbPrivilegio"
+                      Cursor="Hand"/>
             <Image Grid.Row="4"
                    Grid.Column="4"
-                   Grid.RowSpan="11"
+                   Grid.RowSpan="9"
                    Grid.ColumnSpan="2"
                    x:Name="imagen"
                    Source="/items/UserImage.png"/>
             <Button Grid.Column="4"
-                    Grid.Row="16"
+                    Grid.Row="14"
                     Grid.ColumnSpan="2"
-                    Width="100"
+                    Width="180"
                     Content="Cambiar Imagen"
                     Background="Purple"
                     Foreground="White"
+                    x:Name="btnSubir"
+                    Cursor="Hand"
+                    Click="Subir"
                     Style="{DynamicResource btnRegresarStyle}"/>
+            <TextBlock Text="Usuario:"
+                       Grid.Column="4"
+                       Grid.Row="16"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Center"/>
+            <TextBox Style="{DynamicResource TextBoxStyle}" x:Name="tbUsuario"
+                     HorizontalContentAlignment="Center" Grid.Row="16"
+                     Grid.Column="5"
+                     />
+            <TextBlock Text="Contraseña:"
+                       Grid.Column="4"
+                       Grid.Row="18"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Center"/>
+            <TextBox  Style="{DynamicResource TextBoxStyle}" x:Name="tbContrasenia"
+                     Grid.Row="18"
+                      HorizontalContentAlignment="Center"
+                     Grid.Column="5"/>
 
 
 

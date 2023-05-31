@@ -1,0 +1,318 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaPresentacion\\capaPresentacion.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaDatos\\capaDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaDatos\\capaDatos.csproj",
+        "projectName": "capaDatos",
+        "projectPath": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaDatos\\capaDatos.csproj",
+        "packagesPath": "C:\\Users\\AngelPuente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AngelPuente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaEntidad\\capaEntidad.csproj": {
+                "projectPath": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaEntidad\\capaEntidad.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.33, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaEntidad\\capaEntidad.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaEntidad\\capaEntidad.csproj",
+        "projectName": "capaEntidad",
+        "projectPath": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaEntidad\\capaEntidad.csproj",
+        "packagesPath": "C:\\Users\\AngelPuente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaEntidad\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AngelPuente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.33, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaNegocio\\capaNegocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaNegocio\\capaNegocio.csproj",
+        "projectName": "capaNegocio",
+        "projectPath": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaNegocio\\capaNegocio.csproj",
+        "packagesPath": "C:\\Users\\AngelPuente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaNegocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AngelPuente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaDatos\\capaDatos.csproj": {
+                "projectPath": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaDatos\\capaDatos.csproj"
+              },
+              "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaEntidad\\capaEntidad.csproj": {
+                "projectPath": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaEntidad\\capaEntidad.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.33, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaPresentacion\\capaPresentacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaPresentacion\\capaPresentacion.csproj",
+        "projectName": "capaPresentacion",
+        "projectPath": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaPresentacion\\capaPresentacion.csproj",
+        "packagesPath": "C:\\Users\\AngelPuente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaPresentacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AngelPuente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaEntidad\\capaEntidad.csproj": {
+                "projectPath": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaEntidad\\capaEntidad.csproj"
+              },
+              "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaNegocio\\capaNegocio.csproj": {
+                "projectPath": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\capaNegocio\\capaNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.33, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

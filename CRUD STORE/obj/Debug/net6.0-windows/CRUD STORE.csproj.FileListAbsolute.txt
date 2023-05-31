@@ -152,3 +152,52 @@ C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-
 C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.pdb
 C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.genruntimeconfig.cache
 C:\Users\AngelPuente\Desktop\Ahorcado\databaseStore\CRUD STORE\obj\Debug\net6.0-windows\ref\CRUD STORE.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.exe
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.dll.config
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.deps.json
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.runtimeconfig.json
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\CRUD STORE.pdb
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.csproj.AssemblyReference.cache
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\Vistas\CRUDUsuarios.g.cs
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\Vistas\Usuarios.g.cs
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE_MarkupCompile.cache
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE_MarkupCompile.lref
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\Vistas\CRUDUsuarios.baml
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\Vistas\Usuarios.baml
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.g.resources
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.AssemblyInfoInputs.cache
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.AssemblyInfo.cs
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.csproj.CoreCompileInputs.cache
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.csproj.CopyComplete
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\refint\CRUD STORE.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.pdb
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\CRUD STORE.genruntimeconfig.cache
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\obj\Debug\net6.0-windows\ref\CRUD STORE.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\System.Drawing.Common.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\capaEntidad.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\bin\Debug\net6.0-windows\capaEntidad.pdb

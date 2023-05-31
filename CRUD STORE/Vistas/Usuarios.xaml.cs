@@ -23,15 +23,12 @@ namespace CRUD_STORE.Vistas
     /// </summary>
     public partial class Usuarios : UserControl
     {
-<<<<<<< Updated upstream:CRUD STORE/Vistas/Usuarios.xaml.cs
-
-=======
-      
->>>>>>> Stashed changes:Base-de-datos-tienda/CRUD STORE/CRUD STORE/Vistas/Usuarios.xaml.cs
         public Usuarios()
         {
             InitializeComponent();
             CargarDatos();
+
+
         }
 
         MySqlConnection con = new MySqlConnection(ConfigurationManager.ConnectionStrings["MiConexion"].ConnectionString);
@@ -53,7 +50,85 @@ namespace CRUD_STORE.Vistas
         private void Agregar(object sender, RoutedEventArgs e)
         {
             CRUDUsuarios ventana = new CRUDUsuarios();
-            FrameUsurios.Content = ventana;
+            FrameUsuarios.Content = ventana;
+            Contenido.Visibility = Visibility.Hidden;    
+           ventana.btnCrear.Visibility = Visibility.Visible;
         }
+
+        private void Consultar(object sender, RoutedEventArgs e)
+        {
+            int id = (int)((Button)sender).CommandParameter;
+            CRUDUsuarios ventana =  new CRUDUsuarios();
+            ventana.idUsuario = id;
+            ventana.Consultar();
+            FrameUsuarios.Content = ventana;
+            ventana.titulo.Text = "Consulta de Usuario";
+            ventana.tbNombres.IsEnabled = false;
+            ventana.tbApellidoM.IsEnabled = false;
+            ventana.tbApellidoP.IsEnabled = false;
+            ventana.tbTelefono.IsEnabled = false;
+            ventana.tbEmail.IsEnabled = false;
+            ventana.tbDNI.IsEnabled = false;
+           // ventana.tbFecha.IsEnabled = false;
+            ventana.cbPrivilegio.IsEnabled = false;
+            ventana.tbUsuario.IsEnabled = false;
+            ventana.tbContrasenia.IsEnabled = false;
+            ventana.btnSubir.IsEnabled = false;
+            Contenido.Visibility = Visibility.Hidden;
+
+        }
+
+        private void Actualizar(object sender, RoutedEventArgs e)
+        {
+            int id = (int)((Button)sender).CommandParameter;
+            CRUDUsuarios ventana = new CRUDUsuarios();
+            ventana.idUsuario = id;
+            ventana.Consultar();
+            FrameUsuarios.Content = ventana;
+            ventana.titulo.Text = "Actualizar Usuario";
+            ventana.tbNombres.IsEnabled = true;
+            ventana.tbApellidoM.IsEnabled = true;
+            ventana.tbApellidoP.IsEnabled = true;
+            ventana.tbTelefono.IsEnabled = true;
+            ventana.tbEmail.IsEnabled = true;
+            ventana.tbDNI.IsEnabled = true;
+            //ventana.tbFecha.IsEnabled = true;
+            ventana.cbPrivilegio.IsEnabled = true;
+            ventana.tbUsuario.IsEnabled = true;
+            ventana.tbContrasenia.IsEnabled = true;
+            ventana.btnSubir.IsEnabled = true;
+            ventana.btnActualizar.Visibility = Visibility.Visible;
+            Contenido.Visibility = Visibility.Hidden;
+        }
+        private void Eliminar(object sender, RoutedEventArgs e)
+        {
+            int id = (int)((Button)sender).CommandParameter;
+            CRUDUsuarios ventana = new CRUDUsuarios();
+            ventana.idUsuario = id;
+            ventana.Consultar();
+            FrameUsuarios.Content = ventana;
+            ventana.titulo.Text = "Eliminar Usuario";
+            ventana.tbNombres.IsEnabled = false;
+            ventana.tbApellidoM.IsEnabled = false;
+            ventana.tbApellidoP.IsEnabled = false;
+            ventana.tbTelefono.IsEnabled = false;
+            ventana.tbEmail.IsEnabled = false;
+            ventana.tbDNI.IsEnabled = false;
+            // ventana.tbFecha.IsEnabled = false;
+            ventana.cbPrivilegio.IsEnabled = false;
+            ventana.tbUsuario.IsEnabled = false;
+            ventana.tbContrasenia.IsEnabled = false;
+            ventana.btnSubir.IsEnabled = false;
+            ventana.btnEliminar.Visibility = Visibility.Visible;
+            Contenido.Visibility = Visibility.Hidden;
+
+        }
+        #region Buscando
+        private void Buscando(object sender, TextChangedEventArgs e)
+        {
+
+        }
+        #endregion
+
     }
 }

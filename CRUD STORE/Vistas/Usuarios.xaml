@@ -218,8 +218,15 @@
         <!--#endregion-->
     </UserControl.Resources>
     <Border CornerRadius="10"
-            Background="#E0D4ED">
+            Background="Transparent">
         <Grid x:Name="GridUsuarios">
+            <Grid x:Name="Contenido"
+                  Grid.Row="0"
+                  Grid.Column="0"
+                  Grid.ColumnSpan="6"
+                  Grid.RowSpan="8">
+                
+         
             <!--#region ROWSCOLUMNS-->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="20"/>
@@ -267,10 +274,12 @@
                      Grid.Column="2"
                      Grid.Row="2"
                      FontSize="20"
+                     TextChanged="Buscando"
                      />
             <!--#endregion-->
             <!--#region BUSQUEDA-->
-            <Button Style="{DynamicResource ButtonBuscar}" Grid.Column="3"
+                
+            <!--<Button Style="{DynamicResource ButtonBuscar}" Grid.Column="3"
                     Grid.Row="2"
                     Background="Purple"
                     BorderBrush="Purple"
@@ -283,7 +292,9 @@
                            Foreground="White"
                            FontSize="15"
                            />
-            </Button>
+            </Button>-->
+                
+                
             <!--#endregion-->
             <!--#region CREAR USUARIO-->
             <Button Background="#4170FA"
@@ -327,28 +338,37 @@
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <DockPanel>
-                                    <!--BOTONES DEL CRUD-->
                                     <Button Content="Consultar "
                                             x:Name="btnConsultar"
                                             Background="Purple"
                                             Width="80"
-                                            BorderBrush="Transparent"
+                                            Foreground="White"
                                             Style="{DynamicResource ButtonBuscar}"
-                                            Foreground="White"/>
+                                            Click="Consultar"
+                                            Cursor="Hand"
+                                            CommandParameter="{Binding idUsuarios}"/>
+                                    
                                     <Button Content="Modificar "
                                             x:Name="btnModificar"
                                             Background="Purple"
                                             Width="80"
                                             BorderBrush="Transparent"
                                             Style="{DynamicResource ButtonBuscar}"
+                                            Click="Actualizar"
+                                            Cursor="Hand"
+                                            CommandParameter="{Binding idUsuarios}"                                      
                                             Foreground="White"/>
                                     <Button Content="Eliminar "
                                             x:Name="btnEliminar"
                                             Background="Purple"
                                             Width="80"
+                                            Click="Eliminar"
+                                            Cursor="Hand"
                                             BorderBrush="Transparent"
+                                            Foreground="White"
+                                            CommandParameter="{Binding idUsuarios}"
                                             Style="{DynamicResource ButtonBuscar}"
-                                            Foreground="White"/>
+                                             />
                                 </DockPanel>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
@@ -376,9 +396,10 @@
                                         Binding="{Binding nombrePrivilegio}"/>
                 </DataGrid.Columns>
             </DataGrid>
+            </Grid>
             <!--#endregion-->
             <!--#region FRAME USUARIOS-->
-            <Frame x:Name="FrameUsurios"
+            <Frame x:Name="FrameUsuarios"
                    Grid.Column="0"
                    Grid.Row="0"
                    Grid.RowSpan="8"

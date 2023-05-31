@@ -13,7 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using capaEntidad;
 namespace CRUD_STORE
 {
     /// <summary>
@@ -55,6 +55,14 @@ namespace CRUD_STORE
         private void Usuarios_Click(object sender, RoutedEventArgs e)
         {
             DataContext = new Usuarios();
+        }
+
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                DragMove();
+            }
         }
     }
 }
