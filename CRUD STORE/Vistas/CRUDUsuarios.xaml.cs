@@ -40,10 +40,11 @@ namespace CRUD_STORE.Vistas
 
         readonly MySqlConnection con = new MySqlConnection(ConfigurationManager.ConnectionStrings["MiConexion"].ConnectionString);
 
-        void CargarCB() { 
+        void CargarCB()
+        {
             con.Open();
             string query = " SELECT nombrePrivilegio from Privilegios";
-            MySqlCommand cmd = new MySqlCommand(query,con);
+            MySqlCommand cmd = new MySqlCommand(query, con);
             MySqlDataReader dr = cmd.ExecuteReader();
             while (dr.Read())
             {
@@ -56,7 +57,7 @@ namespace CRUD_STORE.Vistas
 
         private void Crear(object sender, RoutedEventArgs e)
         {
-            if (tbNombres.Text== "" || tbApellidoP.Text=="" || tbApellidoM.Text == "" || tbDNI.Text == "" || tbEmail.Text == "" || tbTelefono.Text == ""  || cbPrivilegio.Text == "" || tbUsuario.Text == "" || tbContrasenia.Text == "")
+            if (tbNombres.Text == "" || tbApellidoP.Text == "" || tbApellidoM.Text == "" || tbDNI.Text == "" || tbEmail.Text == "" || tbTelefono.Text == "" || cbPrivilegio.Text == "" || tbUsuario.Text == "" || tbContrasenia.Text == "")
             {
                 MessageBox.Show("Faltan campos por llenar");
             }
@@ -194,14 +195,14 @@ namespace CRUD_STORE.Vistas
             cmdDelete.ExecuteNonQuery();
 
             con.Close();
-            Content = new Usuarios(); 
+            Content = new Usuarios();
 
         }
         #endregion
         #region UPDATE 
         private void Actualizar(object sender, RoutedEventArgs e)
         {
-           con.Open();
+            con.Open();
             string queryUpdate = " select idPrivilegio from Privilegios where nombrePrivilegio ='" + cbPrivilegio.Text + "'";
             MySqlCommand cmdUpdate = new MySqlCommand(queryUpdate, con);
             object valor = cmdUpdate.ExecuteScalar();
@@ -213,7 +214,7 @@ namespace CRUD_STORE.Vistas
             }
             else
             {
-                string queryUpdate2 = "UPDATE Usuarios SET nombres = '" + tbNombres.Text + "', apellidoP = '" + tbApellidoP.Text + "', apellidoM = '" + tbApellidoM.Text + "', dni = '" + int.Parse(tbDNI.Text) + "', email = '" + tbEmail.Text + "', telefono = '" + int.Parse(tbTelefono.Text) + "', idPrivilegio = '" + idPrivilegio + "', usuario = '" + tbUsuario.Text + " ' where idUsuarios = '"+idUsuario+"' ";
+                string queryUpdate2 = "UPDATE Usuarios SET nombres = '" + tbNombres.Text + "', apellidoP = '" + tbApellidoP.Text + "', apellidoM = '" + tbApellidoM.Text + "', dni = '" + int.Parse(tbDNI.Text) + "', email = '" + tbEmail.Text + "', telefono = '" + int.Parse(tbTelefono.Text) + "', idPrivilegio = '" + idPrivilegio + "', usuario = '" + tbUsuario.Text + " ' where idUsuarios = '" + idUsuario + "' ";
                 MySqlCommand cmdUpdate2 = new MySqlCommand(queryUpdate2, con);
 
                 //validacion de imagen 
@@ -239,7 +240,7 @@ namespace CRUD_STORE.Vistas
                 cmdPassEncrypt.Parameters.AddWithValue("@idUsuario", idUsuario);
                 cmdPassEncrypt.ExecuteNonQuery();
             }
-            
+
             con.Close();
             Content = new Usuarios();
 
@@ -255,10 +256,10 @@ namespace CRUD_STORE.Vistas
         private bool imagenSubida;
         private void Subir(object sender, RoutedEventArgs e)
         {
-           OpenFileDialog ofd = new OpenFileDialog();
-            if(ofd.ShowDialog() == true)
+            OpenFileDialog ofd = new OpenFileDialog();
+            if (ofd.ShowDialog() == true)
             {
-                FileStream fs = new FileStream(ofd.FileName,FileMode.Open, FileAccess.Read);
+                FileStream fs = new FileStream(ofd.FileName, FileMode.Open, FileAccess.Read);
                 data = new byte[fs.Length];
                 fs.Read(data, 0, System.Convert.ToInt32(fs.Length));
                 fs.Close();

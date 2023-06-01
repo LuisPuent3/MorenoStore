@@ -474,7 +474,8 @@
                                 </EventTrigger>
                                 <!--#endregion-->
                                 <!--#region MOSTRAR-->
-                                <EventTrigger RoutedEvent="ToggleButton.Checked">
+                                <EventTrigger RoutedEvent="ToggleButton.Checked"
+                                              >
                                     <BeginStoryboard>
                                         <Storyboard x:Name="showPanel">
                                             <DoubleAnimation Storyboard.TargetName="GridMenu" 
@@ -570,6 +571,7 @@
                                     Width="200"
                                     HorizontalAlignment="Left"
                                     Cursor="Hand"
+                                    Click="ProductosClick"
                                     Background="Transparent"
                                     BorderBrush="Transparent"
                                     >
@@ -649,12 +651,15 @@
                   Height="565"
                   Width="925" PreviewMouseLeftButtonDown="PMLBDown"
                   >
-                <Border CornerRadius="10,10,10,10"
+                <Border CornerRadius="0,0,10,10"
                         Background="#E0D4ED" Grid.RowSpan="4"
                         Opacity="0.9"/>
                 
 
-                <ContentControl Content="{Binding}"/>
+                <ContentControl Content="{Binding}" Height="565"
+                                Width="925"
+                                HorizontalAlignment="Right"
+                                x:Name="ContentControl"/>
 
             </Grid>
             <!--#endregion-->

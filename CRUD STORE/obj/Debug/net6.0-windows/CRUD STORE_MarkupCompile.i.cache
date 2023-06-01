@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\CRUD STORE\App.xaml
-31240793941
+52113484112
 
-8-380261209
+10-1348183712
 206-1290316233
-MainWindow.xaml;Vistas\CRUDUsuarios.xaml;Vistas\Usuarios.xaml;
+MainWindow.xaml;Vistas\CRUDProductos.xaml;Vistas\CRUDUsuarios.xaml;Vistas\Productos.xaml;Vistas\Usuarios.xaml;
 
 True
 

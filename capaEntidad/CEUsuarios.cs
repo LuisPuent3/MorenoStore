@@ -12,7 +12,7 @@
         private int _idPrivilegio;
         private byte[] _img;
         private string _usuario;
-        private string _contraenia;
+        private string _contrasenia;
         private string _patron;
 
         public int IdUsuarios { get => _idUsuarios; set => _idUsuarios = value; }
@@ -25,7 +25,7 @@
         public int IdPrivilegio { get => _idPrivilegio; set => _idPrivilegio = value; }
         public byte[] Img { get => _img; set => _img = value; }
         public string Usuario { get => _usuario; set => _usuario = value; }
-        public string Contraenia { get => _contraenia; set => _contraenia = value; }
+        public string Contrasenia { get => _contrasenia; set => _contrasenia = value; }
         public string Patron { get => _patron; set => _patron = value; }
     }
 }

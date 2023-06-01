@@ -26,7 +26,8 @@ namespace capaDatos
                 CommandType = CommandType.StoredProcedure,
 
             };
-            com.Parameters.AddWithValue("@nombres", Usuarios.Nombres);
+            
+            com.Parameters.AddWithValue("nombres", Usuarios.Nombres);
             com.Parameters.AddWithValue("apellidoP", Usuarios.ApellidoP);
             com.Parameters.AddWithValue("apellidoM", Usuarios.ApellidoM);
             com.Parameters.AddWithValue("dni", Usuarios.Dni);
@@ -35,7 +36,7 @@ namespace capaDatos
             com.Parameters.AddWithValue("idPrivilegio", Usuarios.IdPrivilegio);
             com.Parameters.AddWithValue("img", Usuarios.Img);
             com.Parameters.AddWithValue("usuario", Usuarios.Usuario);
-            com.Parameters.AddWithValue("contrasenia", Usuarios.Contraenia);
+            com.Parameters.AddWithValue("contrasenia", Usuarios.Contrasenia);
             com.Parameters.AddWithValue("patron", Usuarios.Patron);
             com.ExecuteNonQuery();
             com.Parameters.Clear();
@@ -121,7 +122,7 @@ namespace capaDatos
                 CommandType = CommandType.StoredProcedure
             };
             com.Parameters.AddWithValue("idUsuarios", Usuarios.IdUsuarios);
-            com.Parameters.AddWithValue("contrasenia", Usuarios.Contraenia);
+            com.Parameters.AddWithValue("contrasenia", Usuarios.Contrasenia);
             com.Parameters.AddWithValue("patron", Usuarios.Patron);
             com.ExecuteNonQuery();
             com.Parameters.Clear();

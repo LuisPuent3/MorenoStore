@@ -44,21 +44,21 @@ namespace CRUD_STORE.Vistas
             data.Fill(dt);
             GridDatos.ItemsSource = dt.DefaultView;
             con.Close();
-           
+
         }
 
         private void Agregar(object sender, RoutedEventArgs e)
         {
             CRUDUsuarios ventana = new CRUDUsuarios();
             FrameUsuarios.Content = ventana;
-            Contenido.Visibility = Visibility.Hidden;    
-           ventana.btnCrear.Visibility = Visibility.Visible;
+            Contenido.Visibility = Visibility.Hidden;
+            ventana.btnCrear.Visibility = Visibility.Visible;
         }
 
         private void Consultar(object sender, RoutedEventArgs e)
         {
             int id = (int)((Button)sender).CommandParameter;
-            CRUDUsuarios ventana =  new CRUDUsuarios();
+            CRUDUsuarios ventana = new CRUDUsuarios();
             ventana.idUsuario = id;
             ventana.Consultar();
             FrameUsuarios.Content = ventana;
@@ -69,7 +69,7 @@ namespace CRUD_STORE.Vistas
             ventana.tbTelefono.IsEnabled = false;
             ventana.tbEmail.IsEnabled = false;
             ventana.tbDNI.IsEnabled = false;
-           // ventana.tbFecha.IsEnabled = false;
+            // ventana.tbFecha.IsEnabled = false;
             ventana.cbPrivilegio.IsEnabled = false;
             ventana.tbUsuario.IsEnabled = false;
             ventana.tbContrasenia.IsEnabled = false;
@@ -126,6 +126,23 @@ namespace CRUD_STORE.Vistas
         #region Buscando
         private void Buscando(object sender, TextChangedEventArgs e)
         {
+            string buscar = TextBoxBuscar.Text;
+            {
+                con.Open();
+                string queryBuscar = "SELECT Usuarios.*, Privilegios.nombrePrivilegio " +
+                                     "FROM Usuarios " +
+                                     "INNER JOIN Privilegios ON Usuarios.idPrivilegio = Privilegios.idPrivilegio " +
+                                     "WHERE nombres LIKE @buscar OR apellidoP LIKE @buscar OR apellidoM LIKE @buscar";
+                MySqlCommand cmd = new MySqlCommand(queryBuscar, con);
+                cmd.Parameters.AddWithValue("@buscar", buscar + "%");
+
+                MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                DataTable dataTable = new DataTable();
+                adapter.Fill(dataTable);
+
+                GridDatos.ItemsSource = dataTable.DefaultView;
+                con.Close();    
+            }
 
         }
         #endregion

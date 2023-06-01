@@ -1,0 +1,15 @@
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\capaDatos\bin\Debug\net6.0\capaDatos.deps.json
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\capaDatos\bin\Debug\net6.0\capaDatos.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\capaDatos\bin\Debug\net6.0\capaDatos.pdb
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\capaDatos\bin\Debug\net6.0\capaEntidad.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\capaDatos\bin\Debug\net6.0\capaEntidad.pdb
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\capaDatos\obj\Debug\net6.0\capaDatos.csproj.AssemblyReference.cache
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\capaDatos\obj\Debug\net6.0\capaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\capaDatos\obj\Debug\net6.0\capaDatos.AssemblyInfoInputs.cache
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\capaDatos\obj\Debug\net6.0\capaDatos.AssemblyInfo.cs
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\capaDatos\obj\Debug\net6.0\capaDatos.csproj.CoreCompileInputs.cache
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\capaDatos\obj\Debug\net6.0\capaDatos.csproj.CopyComplete
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\capaDatos\obj\Debug\net6.0\capaDatos.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\capaDatos\obj\Debug\net6.0\refint\capaDatos.dll
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\capaDatos\obj\Debug\net6.0\capaDatos.pdb
+C:\Users\AngelPuente\Desktop\databaseStore\MorenoStore\capaDatos\obj\Debug\net6.0\ref\capaDatos.dll

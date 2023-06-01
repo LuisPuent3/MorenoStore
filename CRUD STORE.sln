@@ -5,13 +5,15 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD STORE", "CRUD STORE\CRUD STORE.csproj", "{7DDE6719-FBC4-4D3D-8D76-C29AFACFAD28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capaEntidad", "capaEntidad\capaEntidad.csproj", "{5A9920A0-15DC-4E4E-8E2A-3878F9515415}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capaEntidad", "capaEntidad\capaEntidad.csproj", "{5A9920A0-15DC-4E4E-8E2A-3878F9515415}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capaDatos", "capaDatos\capaDatos.csproj", "{D1AC227B-AEB1-4D8B-977B-D37F53838427}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capaDatos", "capaDatos\capaDatos.csproj", "{D1AC227B-AEB1-4D8B-977B-D37F53838427}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capaNegocio", "capaNegocio\capaNegocio.csproj", "{FDD83593-6367-4797-989C-FB9F3F77FF3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capaNegocio", "capaNegocio\capaNegocio.csproj", "{FDD83593-6367-4797-989C-FB9F3F77FF3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capaPresentacion", "capaPresentacion\capaPresentacion.csproj", "{9D047A00-AFB2-486E-AEEE-4FC54EC9FE55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capaPresentacion", "capaPresentacion\capaPresentacion.csproj", "{9D047A00-AFB2-486E-AEEE-4FC54EC9FE55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30B3C2CE-D35E-4245-9E0C-31CB1C85FD00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

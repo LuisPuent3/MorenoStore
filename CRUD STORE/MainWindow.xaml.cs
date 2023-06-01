@@ -28,7 +28,7 @@ namespace CRUD_STORE
 
         private void TBMostrar(object sender, RoutedEventArgs e)
         {
-            GridContent.Opacity = 0.5;
+            GridContent.Opacity = 0.3;
         }
 
         private void TBOcultar(object sender, RoutedEventArgs e)
@@ -55,6 +55,11 @@ namespace CRUD_STORE
         private void Usuarios_Click(object sender, RoutedEventArgs e)
         {
             DataContext = new Usuarios();
+        }
+
+        private void ProductosClick(object sender, RoutedEventArgs e)
+        {
+            DataContext = new Productos();
         }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
