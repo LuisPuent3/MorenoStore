@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "Profile 1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\CRUD STORE.sln",
+      "workingDirectory": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore"
+    },
+    "Profile 2": {
+      "commandName": "Project"
+    },
+    "Profile 3": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore\\CRUD STORE.sln",
+      "workingDirectory": "C:\\Users\\AngelPuente\\Desktop\\databaseStore\\MorenoStore"
+    }
+  }
+}
